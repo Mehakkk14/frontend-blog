@@ -27,7 +27,7 @@ export const Contact = () => {
     const saveForm = (e) => {
         e.preventDefault()
         console.log(data); // api 
-        axios.post("http://localhost:3004/contact", data)
+        axios.post("https://backend-blog-3-bwsd.onrender.comcontact", data)
             .then((res) => {
                 // console.log(res);
                 if (res.status === 201) {

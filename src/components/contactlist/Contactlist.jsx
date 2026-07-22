@@ -13,7 +13,7 @@ export const Contactlist = () => {
     // const [course, setCourse] = useState("python")
 
     const getContactList = () => {
-        axios.get("http://localhost:3004/contact")
+        axios.get("https://backend-blog-3-bwsd.onrender.comcontact")
             .then((res) => {
                 // console.log(res);
                 // console.log(res.data);
@@ -51,7 +51,7 @@ export const Contactlist = () => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                axios.delete("http://localhost:3004/contact/" + id)
+                axios.delete("https://backend-blog-3-bwsd.onrender.comcontact/" + id)
                     .then((res) => {
                         // console.log(res);
                         if (res.status == 200) {

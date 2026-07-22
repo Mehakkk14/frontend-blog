@@ -10,7 +10,7 @@ export const Dashboard = () => {
 
     const getAllCateoryData = async () => {
         try {
-            const catRes = await axios.get("http://localhost:3004/api/categories")
+            const catRes = await axios.get("https://backend-blog-3-bwsd.onrender.comapi/categories")
             setCate(catRes.data.categories)
 
         } catch (err) {
@@ -22,7 +22,7 @@ export const Dashboard = () => {
     const getCategoeryByName = async (c_name) => {
         // alert(c_name)
         try {
-            const cRes = await axios.get("http://localhost:3004/api/blog-cate/" + c_name);
+            const cRes = await axios.get("https://backend-blog-3-bwsd.onrender.comapi/blog-cate/" + c_name);
             setBlog(cRes.data.caterecords)
 
         } catch (err) {
@@ -34,7 +34,7 @@ export const Dashboard = () => {
 
     const getAllBlogs = async () => {
         try {
-            const blogRes = await axios("http://localhost:3004/api/add-blog")
+            const blogRes = await axios("https://backend-blog-3-bwsd.onrender.comapi/add-blog")
             console.log(blogRes);
             setBlog(blogRes.data.records)
 

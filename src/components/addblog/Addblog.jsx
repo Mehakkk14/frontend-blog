@@ -30,7 +30,7 @@ export const Addblog = () => {
             formData.append('blogauthor', blog.blogauthor);
             formData.append('blogdescription', blog.blogdescription);
             if (blog.images) formData.append('images', blog.images); // field = images
-            const res = await axios.post("http://localhost:3004/api/add-blog", formData)
+            const res = await axios.post("https://backend-blog-3-bwsd.onrender.comapi/add-blog", formData)
             // console.log(res);
             if (res.data.success === true || res.status === 201) {
                 toast.success(res.data.msg)
@@ -47,7 +47,7 @@ export const Addblog = () => {
 
     const getAllCategoery = async () => {
         try {
-            const catRes = await axios.get("http://localhost:3004/api/categories")
+            const catRes = await axios.get("https://backend-blog-3-bwsd.onrender.comapi/categories")
             console.log(catRes);
             setCate(catRes.data.categories)
 

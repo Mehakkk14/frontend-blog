@@ -17,7 +17,7 @@ export const Edit = () => {
     const navigate = useNavigate()
 
     const getDataById = () => {
-        axios.get("http://localhost:3004/contact/" + id)
+        axios.get("https://backend-blog-3-bwsd.onrender.comcontact/" + id)
             .then((res) => {
                 // console.log(res);
                 setState(res.data)
@@ -32,7 +32,7 @@ export const Edit = () => {
     const updateFormData = (e) => {
         e.preventDefault()
         // console.log(state);
-        axios.put("http://localhost:3004/contact/" + id, state)
+        axios.put("https://backend-blog-3-bwsd.onrender.comcontact/" + id, state)
             .then((res) => {
                 console.log(res);
                 if (res.status === 200) {
