@@ -1,0 +1,36 @@
+  .signup-card{
+            max-width:480px;
+            width:100%;
+            border:none;
+            border-radius:20px;
+            box-shadow:0 20px 40px rgba(0,0,0,.2);
+        }
+
+        .card-body{
+            padding:40px;
+        }
+
+        .form-control{
+            height:50px;
+            border-radius:12px;
+        }
+
+        .input-group-text{
+            border-radius:12px 0 0 12px;
+            background:#f8f9fa;
+        }
+
+        .btn-signup{
+            height:50px;
+            border-radius:12px;
+            font-size:18px;
+            font-weight:600;
+        }
+
+        h2{
+            font-weight:700;
+        }
+
+        a{
+            text-decoration:none;
+        }

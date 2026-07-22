@@ -1,0 +1,93 @@
+{
+  "contact": [
+    {
+      "f_name": "Rajeev",
+      "l_name": "Kumar",
+      "email_id": "rksinghdls@gmail.com",
+      "mobile_number": "7563811485",
+      "message": "hi",
+      "id": "G0bi7DukuNI"
+    },
+    {
+      "f_name": "Rajeev",
+      "l_name": "Kumar",
+      "email_id": "rksinghdls@gmail.com",
+      "mobile_number": "7563811485",
+      "message": "hi",
+      "id": "kuc9Iqh7um0"
+    },
+    {
+      "f_name": "Rajeev Kumar",
+      "l_name": "Singh",
+      "email_id": "rksinghdls@gmail.com",
+      "mobile_number": "7563811485",
+      "message": "hi",
+      "id": "vDhy3EtbtC8"
+    },
+    {
+      "f_name": "Rajeev",
+      "l_name": "Kumar",
+      "email_id": "rksinghdls@gmail.com",
+      "mobile_number": "7563811485",
+      "message": "hi",
+      "id": "PD0qQYGuFdQ"
+    },
+    {
+      "f_name": "Rajeev",
+      "l_name": "Kumar",
+      "email_id": "rksinghdls@gmail.com",
+      "mobile_number": "7563811485",
+      "message": "hi",
+      "id": "LZWqC46IShY"
+    },
+    {
+      "f_name": "Rajeev",
+      "l_name": "Kumar",
+      "email_id": "rksinghdls@gmail.com",
+      "mobile_number": "7563811485",
+      "message": "hi",
+      "id": "UYnaqFJ4Sug"
+    },
+    {
+      "f_name": "Rajeev",
+      "l_name": "Kumar",
+      "email_id": "rksinghdls@gmail.com",
+      "mobile_number": "7563811485",
+      "message": "hi",
+      "id": "9QR6Zi-sY80"
+    },
+    {
+      "f_name": "Rajeev",
+      "l_name": "Kumar",
+      "email_id": "rksinghdls@gmail.com",
+      "mobile_number": "7563811485",
+      "message": "hi",
+      "id": "gb8c7tYK0VE"
+    },
+    {
+      "f_name": "Rajeev",
+      "l_name": "Kumar",
+      "email_id": "rksinghdls@gmail.com",
+      "mobile_number": "7563811485",
+      "message": "hi",
+      "id": "x-cuDZm9udc"
+    },
+    {
+      "f_name": "Rajeev",
+      "l_name": "Kumar",
+      "email_id": "rksinghdls@gmail.com",
+      "mobile_number": "7563811485",
+      "message": "hi",
+      "id": "8bzdIhsLU6k"
+    },
+    {
+      "f_name": "Rajeev",
+      "l_name": "Kumar",
+      "email_id": "rksinghdls@gmail.com",
+      "mobile_number": "7563811485",
+      "message": "hi",
+      "id": "zsNFREqtGGA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
